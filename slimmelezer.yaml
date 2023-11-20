@@ -143,10 +143,10 @@ sensor:
     power_returned_l3:
       name: "Power Produced Phase 3"
       accuracy_decimals: 3
-    gas_delivered:
-      name: "Gas Consumed"
-    gas_delivered_be:
-      name: "Gas Consumed Belgium"
+    # gas_delivered:
+    #   name: "Gas Consumed"
+    # gas_delivered_be:
+    #   name: "Gas Consumed Belgium"
   - platform: uptime
     name: "SlimmeLezer Uptime"
   - platform: wifi_signal
