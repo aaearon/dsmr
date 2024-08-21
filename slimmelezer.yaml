@@ -58,8 +58,6 @@ api:
             private_key.copy(id(stored_decryption_key), 32);
           id(dsmr_instance).set_decryption_key(private_key);
 
-ota:
-
 dashboard_import:
   package_import_url: github://zuidwijk/dsmr/slimmelezer.yaml@main
   import_full_config: true
